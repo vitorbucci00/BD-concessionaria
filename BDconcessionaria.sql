@@ -22,7 +22,7 @@ CREATE TABLE Clientes (
 );
 
 INSERT INTO Veiculos (marca, modelo, ano, cor, preco, disponivel)
-VALUES ('volkswagen', 'polo', 2020, preto, 85000.00, 'TRUE');
+VALUES ('volkswagen', 'polo', 2020, 'preto', 85000.00, TRUE);
 
 INSERT INTO Clientes (nome, cpf, email, telefone, cidade, estado)
 VALUES ('Vitor Bucci', '140.633.599-13', 'vitorbucci42@gmail.com', '(47) 99762-7802', 'Joinville', 'SC');
